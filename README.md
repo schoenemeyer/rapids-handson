@@ -14,6 +14,7 @@ wget https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2019-06.csv
 
 Start Jupyter Notebook
 
+https://github.com/schoenemeyer/rapids-handson/blob/master/figures/rapids-cudf.PNG
 
 
 More Material
