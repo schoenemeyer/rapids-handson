@@ -1,6 +1,8 @@
-## Handson on Rapipds
+## Handson on NVIDIA Rapids
 
-This example runs on a DGX-1 and uses the RAPIDS Container taken from NGC 
+This example runs on a DGX-1 and uses the RAPIDS Container taken from NGC.  
+cuDF is a GPU DataFrame library for loading, joining, aggregating, filtering, and otherwise manipulating data.
+
 
 nvidia-docker run -it -p 29999:29999  --rm -v `pwd`:`pwd` -w `pwd` nvcr.io/nvidia/rapidsai/rapidsai:cuda10.0-runtime-ubuntu18.04
 
@@ -18,5 +20,8 @@ Start Jupyter Notebook
 
 
 More Material
+https://github.com/rapidsai/cudf
+
+
 https://developer.download.nvidia.com/video/gputechconf/gtc/2019/presentation/s9797-dask-extensions-and-new-developments-with-rapids.pdf
 
