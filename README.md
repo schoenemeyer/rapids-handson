@@ -4,7 +4,7 @@ This example runs on a DGX-1 and uses the RAPIDS Container taken from NGC.
 cuDF is a GPU DataFrame library for loading, joining, aggregating, filtering, and otherwise manipulating data.
 
 
-docker run -it -p 29999:29999  --rm -v `pwd`:`pwd` -w `pwd` nvcr.io/nvidia/rapidsai/rapidsai:cuda10.1-runtime-ubuntu18.04
+docker run -it -p 29999:29999  --rm -v \`pwd\`:\`pwd\` -w \`pwd\` nvcr.io/nvidia/rapidsai/rapidsai:cuda10.1-runtime-ubuntu18.04
 
 
 you get can data from https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
